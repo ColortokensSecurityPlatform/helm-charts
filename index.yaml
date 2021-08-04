@@ -3,7 +3,7 @@ entries:
   ksm-forwarder:
   - apiVersion: v2
     appVersion: 0.1.10-alpha.46
-    created: "2021-04-22T13:52:15.808554083+05:30"
+    created: "2021-08-04T17:16:53.371715266+05:30"
     description: A Helm chart for CNAPP KSM Forwarder
     digest: d30a4e2527bb27166da2098aca16653b6faced7446deca6497f441a74bdecb1f
     name: ksm-forwarder
@@ -13,7 +13,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.10-alpha.43
-    created: "2021-04-22T13:52:15.808172967+05:30"
+    created: "2021-08-04T17:16:53.371193007+05:30"
     description: A Helm chart for CNAPP KSM Forwarder
     digest: 5c135c244eb3c09563059ca216547da2400015f2e7c4defd02e680ed332c9398
     name: ksm-forwarder
@@ -21,4 +21,14 @@ entries:
     urls:
     - https://colortokenssecurityplatform.github.io/helm-charts/ksm-forwarder-0.1.5.tgz
     version: 0.1.5
-generated: "2021-04-22T13:52:15.807518409+05:30"
+  kube-sensor:
+  - apiVersion: v1
+    appVersion: 0.1.1-alpha.0
+    created: "2021-08-04T17:16:53.372366868+05:30"
+    description: Colortokens cluster security service
+    digest: 0937d0e973c4f4d088ec180edf0fd88586cfcb86abc1a799ef35ee3b7fd5f6e4
+    name: kube-sensor
+    urls:
+    - https://colortokenssecurityplatform.github.io/helm-charts/kube-sensor-0.1.1-alpha.0.tgz
+    version: 0.1.1-alpha.0
+generated: "2021-08-04T17:16:53.369218588+05:30"
